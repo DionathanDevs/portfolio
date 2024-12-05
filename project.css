@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 5em;
-    height: 500px;
+    height: 700px;
     width: 100%;
 }
 .box-project{
@@ -50,5 +50,12 @@
         flex-direction: column;
   
         height: 900px;
+    }
+}
+
+@media(max-width: 480px){
+    .project{
+        height: 900px;
+        margin-top: 0;
     }
 }

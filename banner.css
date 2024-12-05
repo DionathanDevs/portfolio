@@ -139,6 +139,7 @@ span{
     align-items: center;
     justify-content: center;
     text-align: center;
+    transition: 0.5s;
 
 
 }
@@ -344,7 +345,7 @@ line-height: 1.2em;
         align-items: center;
         text-align: center;
         justify-content: center;
-        word-break: break-all;
+        word-wrap: break-word;
         overflow-wrap: break-word;
         height: 405px;
         width: 60%;
@@ -352,6 +353,10 @@ line-height: 1.2em;
 }
 
 @media (max-width: 480px) {
+
+    .text-sobre{
+        font-size: 12px;
+    }
     main{
         gap: 5em;
         align-items: center;

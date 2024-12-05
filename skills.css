@@ -34,7 +34,7 @@ article{
     width: 100%;
     height: 100%;
     display: flex;
-    gap: 1em;
+   
     justify-content: space-evenly;
     flex-wrap: wrap;
  
@@ -80,11 +80,17 @@ box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);}
         width: 120px;
     }
 
+    .card-list{
+        height: 400px;
+        
+    }
+
+
     #skills{
         
         display: flex;
         flex-direction: column;
-        height: 900px;
+        height: 600px;
         margin-top: 10em;
         justify-content: center;
         align-items: center;
@@ -111,3 +117,20 @@ box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);}
         height: 100px;
     }
 }
+
+@media(max-width: 480px){
+    .card-list-item{
+    border-radius: 15px 15px 0 0;
+    width: 80px;
+    height: 50px;
+    gap: 0.5em;
+}  
+.card-list .card-list-item i{
+    font-size: 30px;
+    gap: 1em;
+    margin: 0;
+}
+
+.card-list .card-list-item p{
+    font-size: 13px;
+}}

@@ -7,5 +7,6 @@ footer{
     align-items: center;
     display: flex;
     z-index: 1000;
+    height: 400px;
 }
 
