@@ -367,7 +367,7 @@ line-height: 1.2em;
     .banner-home{
         
         align-items: center;
-     
+       
         flex-wrap: wrap;
         word-break: break-all;
         justify-content: center;
@@ -452,4 +452,11 @@ line-height: 1.2em;
         font-size: 28px;
     }
     
+    .banner-sobre{
+        border: 1px solid white;
+    }
+
+    #skills{
+        margin-top: 0;
+    }
 }
