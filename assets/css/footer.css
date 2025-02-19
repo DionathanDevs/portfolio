@@ -1,0 +1,15 @@
+footer{
+    width: 100%;
+    background-color:  rgba(117, 24, 224, 0.568);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    z-index: 1000;
+    height: 400px;
+}
+
+h4{
+    font-size: 14px;
+}

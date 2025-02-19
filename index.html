@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dionathan Boing</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-list-item"><a href="#home" class="nav-link">Inicio</a></li>
+                <li class="nav-list-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li class="nav-list-item"><a href="#skills" class="nav-link">Habilidades</a></li>
+                <li class="nav-list-item"><a href="#projects" class="nav-link">Projetos</a></li>
+            </ul>
+        </nav>
+
+        <nav class="nav-burguer ">
+            <button type="click" class="nav-burguer-btn"><i class="fas fa-bars"></i></button>
+            <ul class="nav-burguer-list">
+                <li class="nav-burguer-item"><a href="#home" class="nav-link">Inicio</a></li>
+                <li class="nav-burguer-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li class="nav-burguer-item"><a href="#skills" class="nav-link">Habilidades</a></li>
+                <li class="nav-burguer-item"><a href="#projects" class="nav-link">Projetos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="banner-home hidden" >
+            <div class="box-info">
+            <div class="box-text">
+                <h1 class="titulo-home">Olá, eu sou o <span>Dionathan!</span></h1>
+                <div class="box-descricao"><p>Estudando para ser um desenvolvedor Full-Stack</p></div>
+            </div>
+            
+            <div class="box-social">
+               <a href="https://www.linkedin.com/in/dionathan-boing-mesquita-210488236" target="_blank" class="link-social">Linkedin</a>
+               <a href="https://github.com/DionathanDevs" class="link-social" target="_blank" >GitHub</a>
+               <a href="assets/docs/curriculo_dionathan.pdf" class="link-social dowload" download="curriculo_dionathan.pdf">Baixar CV</a>
+            </div>
+            
+        </div>  
+            <div class="box-img-self">
+            <img src="assets/img/fotoperfil.png" alt="" class="img-self">
+            </div>
+            
+        </section>
+        <section id="sobre" class="banner-sobre hidden">
+            <div class="box-img-self sobre">
+            <img src="assets/img/fotoperfil.png" alt="" class="img-self sobre"></div>
+            <div class="box-info-sobre">
+                <h2 class="titulo-sobre">Sobre Mim</h2>
+                <p class="text-sobre">Atualmente estou cursando Analise e Desenvolvimento de Sistemas, tenho 19 anos e estou em busca de uma vaga para estagiar como Desenvolvedor Front-End ou Back-End.</p>
+            </div>
+        </section>
+        <article id="skills" >
+            <div class="box-skill hidden">
+                <h2 class="titulo-skills">Habilidades</h2>
+                
+            </div>
+            <div class="box-icon-skil hidden">
+                <ul class="card-list">
+                
+                <li class="card-list-item"><i class="fa-brands fa-html5"></i></li>    
+                <li class="card-list-item"><i class="fa-brands fa-css3-alt"></i></li>
+                <li class="card-list-item"><i class="fa-brands fa-git-alt"></i></li>
+                <li class="card-list-item"><i class="fa-brands fa-js"></i></li>
+                <li class="card-list-item"><i class="fa-solid fa-database"></i></li>
+                <li class="card-list-item"><i class="fa-solid fa-c"></i></li>
+                <li class="card-list-item"><i class="fa-brands fa-php"></i></li>
+                <li class="card-list-item"><p>Estudando</p></li>
+    
+                </ul>
+            </div>
+        </article>
+        <article id="projects" class="project hidden">
+            <div class="box-skill">
+                <h2 class="titulo-skills">Projetos</h2>
+                
+            </div>
+            <div class="box-project">
+                <ul class="card-list-project">
+                    
+                <li class="card-list-item-project"><img src="assets/img/projetotma.png" alt="Tela de Login Sistema Interno" class="img-project"></li>
+                <li class="card-list-item-project"><img src="assets/img/projetotma2.png" alt="Tela de Cadastro" class="img-project"></li> 
+                <li class="card-list-item-project"></li> 
+                <li class="card-list-item-project"></li>
+                
+                </ul>
+            </div>
+        </article>
+
+       
+
+
+    </main>
+
+    <footer>
+        <h4>Desenvolvido por Dionathan</h4>
+    </footer>
+    <script src="./config/js/script.js"></script>
+</body>
+</html>
