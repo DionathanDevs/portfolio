@@ -9,6 +9,10 @@
 .img-project{
     width: 400px;
 }
+
+.img-project img{
+    width: 100%;
+}
 .box-project{
    
     display: flex;
